@@ -5,6 +5,7 @@
 *.crt
 *.key
 *.pem
+*.cert
 certs/
 
 # Node.js dependencies
