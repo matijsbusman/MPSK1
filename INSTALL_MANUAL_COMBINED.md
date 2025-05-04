@@ -5,13 +5,12 @@ This manual provides step-by-step instructions to install and run the Aruba Cent
 
 ---
 
-## 🪟 Windows Installation
+## Windows Installation
 
 ### 1. Prerequisites
 
 - Install [Node.js (LTS)](https://nodejs.org/) – includes `npm`
 - Install [Git](https://git-scm.com/)
-- Optional: Install [Visual Studio Code](https://code.visualstudio.com/) for editing
 
 ### 2. Clone the Repository
 
@@ -53,7 +52,7 @@ Access it at `https://localhost`.
 
 ---
 
-## 🐧 Linux/macOS Installation
+## Linux/macOS Installation
 
 ### 1. Prerequisites
 
@@ -105,7 +104,7 @@ Access it at `https://localhost`.
 
 ---
 
-## ✅ Troubleshooting
+## Troubleshooting
 
 - Ensure ports are not blocked by firewalls or antivirus.
 - Verify `.env` paths match actual certificate locations.
