@@ -16,8 +16,8 @@ This manual provides step-by-step instructions to install and run the Aruba Cent
 ### 2. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/aruba-central-mpsk-manager.git
-cd aruba-central-mpsk-manager
+git clone https://github.com/matijsbusman/MPSK1.git
+cd MPSK1
 ```
 
 ### 3. Install Dependencies
@@ -48,6 +48,9 @@ node server.js
 Access it at `http://localhost`.
 
 ---
+The first time the script server is accessed at HTTP port 80.
+Generate the certificate files. After generation restart the server and access it at:
+Access it at `https://localhost`.
 
 ## 🐧 Linux/macOS Installation
 
@@ -60,8 +63,8 @@ Access it at `http://localhost`.
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/aruba-central-mpsk-manager.git
-cd aruba-central-mpsk-manager
+git clone https://github.com/matijsbusman/MPSK1.git
+cd MPSK1
 ```
 
 ### 3. Install Dependencies
@@ -95,6 +98,9 @@ node server.js
 
 Access it at `http://localhost`.
 
+The first time the script server is accessed at HTTP port 80.
+Generate the certificate files. After generation restart the server and access it at:
+Access it at `https://localhost`.
 ---
 
 ## ✅ Troubleshooting
