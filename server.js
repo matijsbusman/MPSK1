@@ -337,7 +337,11 @@ app.get('/', async (req, res) => {
       </table>
 
       <p style="text-align:center; margin-top: 15px; font-weight: bold; color: #007bff;">${req.query.result || ''}</p>
-    </div>
+         <footer>
+         <p><strong>Disclaimer:</strong> This tool is for managing Aruba mPSK keys. Ensure that all security policies and protocols are followed. The developer is not responsible for any misuse.</p>
+         <p>Developed by <a href="https://github.com/matijsbusman" target="_blank">Matijs Busman</a></p>
+         </footer>
+      </div>
   </body>
 </html>
 
