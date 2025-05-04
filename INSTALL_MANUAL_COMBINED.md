@@ -47,10 +47,11 @@ node server.js
 
 Access it at `http://localhost`.
 
----
 The first time the script server is accessed at HTTP port 80.
 Generate the certificate files. After generation restart the server and access it at:
 Access it at `https://localhost`.
+
+---
 
 ## 🐧 Linux/macOS Installation
 
@@ -101,6 +102,7 @@ Access it at `http://localhost`.
 The first time the script server is accessed at HTTP port 80.
 Generate the certificate files. After generation restart the server and access it at:
 Access it at `https://localhost`.
+
 ---
 
 ## ✅ Troubleshooting
