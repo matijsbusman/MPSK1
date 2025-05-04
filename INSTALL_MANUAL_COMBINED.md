@@ -31,33 +31,21 @@ npm install
 Create a `.env` file in the root directory and add the following:
 
 ```env
-CLIENT_ID=your_aruba_central_client_id
-CLIENT_SECRET=your_aruba_central_client_secret
-CUSTOMER_ID=your_customer_id
-TOKEN_URL=https://oauth2.central.arubanetworks.com/oauth2/token
-CERT_PATH=./certs/cert.pem
-KEY_PATH=./certs/key.pem
+CLIENT_ID=<API Client ID>
+CLIENT_SECRET=<API secret value>
+REFRESH_TOKEN=<refresh token>
+MPSK_GROUP=<group collected with swagger>
 ```
 
 > Replace placeholders with your actual Aruba Central credentials.
 
-### 5. Create Certificates
+#### 6. Run the Application
 
-You can create self-signed certificates using PowerShell or OpenSSL:
-
-```sh
-openssl req -nodes -new -x509 -keyout certs/key.pem -out certs/cert.pem
-```
-
-Make sure to place the generated files in the `certs/` directory.
-
-### 6. Run the Application
-
-```sh
+```bash
 node server.js
 ```
 
-The application will run at `https://localhost:3000`.
+Access it at `http://localhost`.
 
 ---
 
@@ -93,19 +81,10 @@ nano .env
 Paste the following and replace values accordingly:
 
 ```env
-CLIENT_ID=your_aruba_central_client_id
-CLIENT_SECRET=your_aruba_central_client_secret
-CUSTOMER_ID=your_customer_id
-TOKEN_URL=https://oauth2.central.arubanetworks.com/oauth2/token
-CERT_PATH=./certs/cert.pem
-KEY_PATH=./certs/key.pem
-```
-
-### 5. Generate SSL Certificates
-
-```bash
-mkdir -p certs
-openssl req -nodes -new -x509 -keyout certs/key.pem -out certs/cert.pem
+CLIENT_ID=<API Client ID>
+CLIENT_SECRET=<API secret value>
+REFRESH_TOKEN=<refresh token>
+MPSK_GROUP=<group collected with swagger>
 ```
 
 ### 6. Run the Application
@@ -114,7 +93,7 @@ openssl req -nodes -new -x509 -keyout certs/key.pem -out certs/cert.pem
 node server.js
 ```
 
-Access it at `https://localhost:3000`.
+Access it at `http://localhost`.
 
 ---
 
